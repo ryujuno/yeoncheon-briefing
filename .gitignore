@@ -1,0 +1,16 @@
+# [보안 설정] 모든 개인/업무 폴더 및 메모는 깃허브 업로드에서 완전 제외
+/*
+.*
+
+# 허용할 파일들 (오직 브리핑 및 인구 데이터만)
+!.gitignore
+!README.md
+!latest_briefing.md
+
+!01_Inbox/
+01_Inbox/*
+!01_Inbox/*한장브리핑*.md
+
+!80_Data/
+80_Data/*
+!80_Data/*연천군인구심층분석*.md
