@@ -2,14 +2,16 @@
 /*
 .*
 
-# 허용할 파일들 (오직 브리핑 및 인구 데이터만)
+# 허용할 파일들 (오직 브리핑, 매일경제 칼럼 및 인구 데이터만)
 !.gitignore
 !README.md
 !latest_briefing.md
+!latest_mk_column.md
 
 !01_Inbox/
 01_Inbox/*
 !01_Inbox/*한장브리핑*.md
+!01_Inbox/*매일경제_뉴스칼럼*.md
 
 !80_Data/
 80_Data/*
